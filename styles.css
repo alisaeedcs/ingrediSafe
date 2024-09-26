@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Reset default margin */
+    background-color: #f4f4f4;
+    color: #333;
+    width: 300px; /* Consistent width */
+    height: 200px; /* Adjust height to fit content */
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff; /* Background for header */
+    border-bottom: 1px solid #ddd; /* Border below header */
+}
+
+.header h1 {
+    font-size: 18px;
+    margin: 0; /* Remove default margin */
+}
+
+.settings-link {
+    text-align: right;
+}
+
+.settings-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.settings-link a:hover {
+    color: #0056b3;
+}
+
+/* Button Styles */
+button {
+    background-color: #022c59;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0; /* Space between button and other elements */
+    display: block; /* Block level to center it */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#back {
+    background-color: #6c757d; /* Gray color for the back button */
+    margin-top: 20px;
+}
+
+#back:hover {
+    background-color: #5a6268;
+}
+
+/* Message Styles */
+#message, #feedback-message {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#message {
+    color: red;
+    font-weight: bold;
+    display: none; /* Hidden by default */
+}
+
+#feedback-message {
+    color: green; /* Feedback message color */
+}
